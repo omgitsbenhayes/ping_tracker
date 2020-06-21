@@ -11,7 +11,7 @@ PING_COUNT = 4  # If you change this, add/remove the appropriate amount of colum
 
 # Ping
 try:
-    # Ping url 3 times
+    # Ping url number of times specified by PING_COUNT
     # print("Pinging {}".format(url))
     responses = pp.ping(url, MAX_TIMEOUT_SECS, PING_COUNT)._responses
     
